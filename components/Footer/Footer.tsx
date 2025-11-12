@@ -1,17 +1,18 @@
-import css from './Footer.module.css'
+import css from './Footer.module.css';
 
-const Footer = () => (<footer className={css.footer}>
+const Footer = () => (
+  <footer className={css.footer}>
     <div className={css.content}>
-        <p>© {new Date().getFullYear()} NoteHub. All rights reserved.</p>
-        <div className={css.wrap}>
-            <p>Developer: Yurii</p>
-            <p>
-                Contact us:
-                <a href="mailto:yerikstar@gmail.com">yerikstar@gmail.com</a>
-            </p>
-        </div>
+      <p>© {new Date().getFullYear()} NoteHub. All rights reserved.</p>
+      <div className={css.wrap}>
+        <p>Developer: Renat Moroz</p>
+        <p>
+          Contact us:
+          <a href="mailto:bs4123555@gmail.com">bs4123555@gmail.com</a>
+        </p>
+      </div>
     </div>
-</footer>)
+  </footer>
+);
 
-export default Footer
-
+export default Footer;
